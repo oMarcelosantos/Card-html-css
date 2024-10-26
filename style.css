@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family:"Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.card {
+    width: 100%;
+    background-color: #ffffff ;
+    padding: 12px;
+    border-radius: 20px;
+    height: 540px;
+    box-shadow: 10px 14px  black;
+    border: 2.5px solid black;
+}
+
+.imagem-1 {
+    border-radius: 16px;
+    width: 100%;   
+}
+
+.texto {
+    margin-top: 20px;
+}
+
+.botao {
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.7rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.data {
+    margin-top: 10px;
+    color:hsl(0, 0%, 7%);
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+.descricao {
+    margin-top: 10px;
+    font-size: medium;
+    color: hsl(0, 0%, 42%);
+}
+
+.imagem-2 {
+    margin-top: 20px;
+    max-height: 40px;
+}
+
+span {
+    font-weight: bolder;
+    font: size 16px;
+    color: black;
+}
+
+.container-card {
+    display:flex;
+    align-items:center;
+    padding-top: 20px;
+}
+
+ .sticker {
+    max-height: 50px;
+ }
+
+ h3 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+ }
+
